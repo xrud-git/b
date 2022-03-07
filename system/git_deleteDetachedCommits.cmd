@@ -1,16 +1,26 @@
+@setLocal enableDelayedExpansion enableExtensions
+@call en
+
 rem 
 rem #looseCommits "#danglingCommits"
 rem 
-rem [d]
-echo(
-
-
-rem [d]
-rem cd /d ""
 
 
 rem [dev_s] set /p "v=To delete of all Branches, write "y": "
 
+
+set "v=%~dp0"
+set "v=!v:~0,-1!"
+call !en! separateVar "v" "\"
+set "v=!v_f!"
+
+call !en! removeItemsFromEndInVar "v" "1" "\"
+
+echo(Def = !v_f!!br!
+	
+set /p "v=Repository location, or Enter for def = "||set "v=!v_f!"
+
+cd /d "!v!"
 
 rem Can be recovered with `git log --all --reflog --alternate-refs --boundary --full-history --show-pulls --do-walk --format=oneline` .
 

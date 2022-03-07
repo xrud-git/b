@@ -26,15 +26,6 @@ Readme inside a script file
 
 ## Storage / File System
 
-### GitHub
-
-[dev] Rebase
-```
-error: invalid path 'assets/github_b/1aA`~!@#$%^&()-_=+{}, ./t'
-<<..>>
-Could not apply 287ab71... Create t
-```
-
 
 ### Git
 
