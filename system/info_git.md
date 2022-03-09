@@ -1,16 +1,6 @@
 
 # Git info by Xrud
 
-See also:
-* [Github's Resources](https://try.github.io/) .
-* [Github Documentation](https://docs.github.com/en) .
-* [Microsoft Azure Documentation](https://docs.microsoft.com/en-us/azure/devops/learn/git/what-is-git) .
-* Default location of installed Git documentation : `C:\Program Files\Git\mingw64\share\doc` [file:///](file:///C|//Program%20Files//Git//mingw64//share//doc) ;
-
-* <details><summary>Not recommended</summary>
-	Git Online Documentation -- https://git-scm.com/docs .
-	</details>
-
 
 ### Names
 
@@ -34,7 +24,7 @@ Max names:
 
 ## Branches
 
-Among other, they specify which Commits with the preceding ones, are not detached .
+Among other, they specify which Commits with the preceding ones, are not Detached .
 
 If you cancel Rebase while have not Committed changes, the 2nd will be lost .
 
@@ -53,3 +43,38 @@ If you have a sub-Repository, Committed without {separate Remote}/Submodules . A
 3. Make a Commit .
 
 * Otherwise the Repository will break, with no way to restore the content .
+
+
+# See also
+
+* [Github's Resources](https://try.github.io/) .
+* [Github Documentation](https://docs.github.com/en) .
+* [Microsoft Azure Documentation](https://docs.microsoft.com/en-us/azure/devops/learn/git/what-is-git) .
+* Default location of installed Git documentation : `C:\Program Files\Git\mingw64\share\doc` [file:///](file:///C|//Program%20Files//Git//mingw64//share//doc) ;
+
+* <details><summary>Not recommended</summary>
+	[Git Online Documentation](https://git-scm.com/docs) .
+	</details>
+
+
+# Settings
+
+`--system` and then `--global` , affects creation of Repository's Config at Clone .
+
+Get -- `git config --get-all --show-origin <<handle>>` .
+* active/used -- `git config --get --show-origin <<handle>>` .
+
+Set
+```
+// git config --system <<handle>> <<the value>>
+git config --global <<handle>> <<the value>>
+git config <<handle>> <<the value>>
+```
+
+### Assets
+
+Otherwise they'll be saved as files
+```
+git config --global core.symlinks true
+git config core.symlinks true
+```
