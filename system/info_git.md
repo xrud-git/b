@@ -13,6 +13,8 @@ Checkout a Commit -- reverts and/or applies Commits between the current, and the
 
 # Assets
 
+## issues
+
 If you get an unsupported File System or Git name in the history, it may make so the only ways to fix a resulting issue would be:
 * To "Undo Last Commit" all the later Commits .
 * To copy the content and re-Commit it .
@@ -22,7 +24,16 @@ Max names:
 * File System -- ``1aA`~!@#$%^&()-_=+[{]};'. ,`` , Without ending folder names on `.` , that would break some interaction with the subject repository on Windows .
 
 
-## Branches
+## Gitignore
+
+`.gitignore` files -- each line : new item
+* separators for items of paths is required to be written as `/` .
+* from location of the file -- `/<<path>>` .
+	
+	!! otherwise it'll be considered as all files/folders with that name .
+
+
+## Branches / Tags
 
 Among other, they specify which Commits with the preceding ones, are not Detached .
 
@@ -31,6 +42,8 @@ If you cancel Rebase while have not Committed changes, the 2nd will be lost .
 They use the settable names, for separation from each other .
 
 If you do "Undo Last Commit" on Rebase Commit . It may break your ability to Commit, in that case save the changes you had not Committed before the Rebase, then switch to the subject Branch, and try again .
+
+The only Tag 's difference seems to be the handling by interface programs, for example Github uses them as paths to releases (so they work even not being listed on the Releases page) .
 
 
 ## Management

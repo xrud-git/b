@@ -7,7 +7,7 @@ variableName_1__: line__
 <div align=center><h3><b>
 Github Markdown Description
 </b></h3><b>
-[info_markdown] [ver_cu] by Xrud
+[info_markdown] [ver_1_dev]
 
 [English]
 </b></div>
