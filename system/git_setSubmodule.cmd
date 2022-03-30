@@ -25,7 +25,9 @@ if "%~1" equ "" (
 
 	set "v1=%~1"
 	call !en! removeTextFromStartInLine "v1" "!v!\"
-	set "v1=!v_f!"
+	
+	rem //# required by Github . [dev Git converts `//` to `/`]
+	set "v1=!v_f:\=//!"
 
 	echo(Sub-repository location = !v1!
 	echo(
@@ -37,8 +39,13 @@ if "%~1" equ "" (
 
 	if "!errorLevel!" neq "0" (
 		git submodule set-url "!v1!" "!v!"
+
+		rem //# required by Github
+		git submodule set-path "!v1!" "!v1!"
 	)
 
+	echo(
+	echo(If you see an error message, the script still may worked .
 	echo(
 )
 
