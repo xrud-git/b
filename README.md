@@ -5,7 +5,7 @@ Please feel free to contribute or suggest, to any part of the project .
 
 ## GitHub Issues
 
-When you search, currently use Labels that start with: from "- " to "-2 " ;.
+When you search, currently use Labels that start with: from "- " to "-2 " .
 
 If any, suggest to: add or create; missing Labels, in/with relevant Issues .
 

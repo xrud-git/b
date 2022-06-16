@@ -37,7 +37,7 @@ Image Embed
 ```
 ![pi](..//..//..//..//assets//github_b//co_dw_256x256.png)
 
-<img src="..\..\..\..\assets\github_b\co_dw_256x256.png" height="500">
+<img src="..//..//..//..//assets//github_b//co_dw_256x256.png" height="500">
 ```
 
 Same page Anchor/Heading -- only --
