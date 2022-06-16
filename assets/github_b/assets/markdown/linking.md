@@ -36,6 +36,8 @@ On GitHub, [Space] can be escaped by {[Numeric character reference](https://en.w
 Image Embed
 ```
 ![pi](..//..//..//..//assets//github_b//co_dw_256x256.png)
+
+<img src="..\..\..\..\assets\github_b\co_dw_256x256.png" height="500">
 ```
 
 Same page Anchor/Heading -- only --
