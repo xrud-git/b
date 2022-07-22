@@ -1,5 +1,5 @@
 
-# Git info by Xrud
+# Git info [ver 0.1]
 
 
 ### Names
