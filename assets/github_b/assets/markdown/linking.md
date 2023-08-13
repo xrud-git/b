@@ -65,7 +65,7 @@ Search:
 
 ## [Percent-Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 
-Uses an UTF-8 codes (not positions in it's char table) .
+Uses an UTF-8 codes . (not positions in it's char table)
 
 Each {byte / 2 chars} need to be preceded by "%" .
 
