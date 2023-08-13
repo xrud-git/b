@@ -63,11 +63,11 @@ Search:
 * what leaves `` 1aA%-_ `` ;.
 
 
-## [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+## [Percent-Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 
 Uses a Unicode codes .
 
-To prevent that certain characters which are written after such item, would be considered a part of the item, write the item directly as 4 bytes .
+To prevent that certain characters which are written after PE item, would be considered a part of the item, write the item directly as 4 bytes .
 * Example: `%0000002222` for `"22` .
 
 ```
