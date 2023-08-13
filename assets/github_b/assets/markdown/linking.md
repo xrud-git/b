@@ -65,11 +65,11 @@ Search:
 
 ## [Percent-Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 
-Uses a Unicode codes .
+Uses an \[dev ? "UTF-8"\] codes .
 
-To prevent that certain characters which are written after PE item, would be considered a part of the item, write the item directly as 4 bytes .
-* Example: `%0000002222` for `"22` .
+Each {byte / 2 chars} need to be preceded by "%" .
 
+Basic items
 ```
 Space	%20
 "	%22
