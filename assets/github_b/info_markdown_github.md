@@ -73,9 +73,20 @@ text__ <sup
 <!--_textOfTheComment__>>-->
 [comment]: wordOfTheComment__
 
-|tableHeader__      |tableHeader__      |
-|---                |---                |
-|text__             |text__             |
+<table><tbody>
+<tr>
+<td>text__</td>
+<td>text__</td>
+</tr>
+<tr>
+<td>text__</td>
+<td>text__</td>
+</tr>
+</tbody></table>
+
+| tableHeader__		| tableHeader__		|
+| ---				| ---				|
+| text__			| text__			|
 
 <details><summary> shortenedText__
 </summary>
