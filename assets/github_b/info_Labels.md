@@ -13,7 +13,7 @@
 * `-3 tag__` (can be duplicated, replace the `tag__` with a corresponding name)
 * `awaiting parties' confirmation` -- `if consensus was reached, make sure to let other participants know, by Reactions or final words`.
   * is intended for avoiding: loosing solutions due to silent/undescribed disagreements, and misunderstanding.
-  * on behalf of Xrud, Xrud members don't intentionally say bullshit regardless of the case, if that ever happens, the one who did it will face severe consequences.
+  * on behalf of Xrud, Xrud members don't intentionally say bullshit, regardless of the case. if that ever happens, the one who did it will face severe consequences.
 * `awaiting review` -- `(also a "no:label" command of the search)`.
 * `bug` -- `in relation to the product, something works not as intended`.
 * `deterioration` -- `at the time, this result would lead to more waste than have usefulness`.
